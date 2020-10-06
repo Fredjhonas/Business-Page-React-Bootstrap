@@ -1,5 +1,5 @@
-@import "./Vars.scss";
-@import  "~bootstrap/scss/bootstrap.scss";
+@import './Vars.scss';
+@import '~bootstrap/scss/bootstrap.scss';
 
 body {
   margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 /* #Main Landing section 
-       ---------------------------------------------------------------------------*/
+---------------------------------------------------------*/
 
 #header {
   width: 100%;
@@ -56,7 +56,6 @@ body {
 }
 
 #header .animated {
-  
   border-radius: 20px;
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -76,4 +75,18 @@ body {
   100% {
     transform: translateY(-10px);
   }
+}
+
+/* Contact section  
+-----------------------------------------------------------------*/
+
+.contact-div {
+  margin-bottom: 80px;
+}
+
+.btn-form {
+  padding: 4px;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 100%;
 }

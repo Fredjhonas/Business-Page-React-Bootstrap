@@ -1,11 +1,21 @@
-.card-img, .card-img-top, .card-img-bottom {
-height: 38%;
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  height: 38%;
 }
 
 .card {
-    margin-bottom: 20px;
-} 
+  margin-bottom: 20px;
+}
 
-.btn {
-    padding: 0.5px;
+.btn-card {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #3498db;
+  border: 2px solid black !important;
+  text-decoration: none !important;
 }

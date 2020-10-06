@@ -5,7 +5,7 @@ import Card from '../components/Card';
 const Services = () => {
   return (
     <>
-      <div className='my-5'>
+      <div className='my-3'>
         <h1 className='text-center'>Our Services</h1>
       </div>
       <div className='container-fluid mb-5'>

@@ -5,7 +5,7 @@ import './styles.scss';
 const Navbar = () => {
   return (
     <>
-      <div className='container-fluid nav_bg'>
+      <div className='container-fluid nav_bg' id='navbar'>
         <div className='row-nav'>
           <div className='col-12 mx-auto'>
 
