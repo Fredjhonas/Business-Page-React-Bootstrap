@@ -1,3 +1,3 @@
-# curso-platzi-react-avanzado ⚛️
+# Business Page con React-Bootstrap personalizado con SASS ⚛️
 
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
+Repositorio con el código Javascript basado en componentes, utilizamos estilos con SASS Y Bootstrap.
