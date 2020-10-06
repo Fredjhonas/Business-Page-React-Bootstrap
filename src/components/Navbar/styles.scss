@@ -1,0 +1,41 @@
+.navbar a {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.nav_bg {
+    padding-left: 0;
+    padding-right: 0;
+}
+.bg-light {
+    background-color: #87c7f1 !important;
+    border-radius: 10px;
+}
+.row-nav {
+    background-color: #87c7f1 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav {
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 1rem !important;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: white !important;
+}
+
+@media (max-width: 991px) {
+    .navbar-brnd {
+        font-size: 1.5rem !important;
+    }
+}
