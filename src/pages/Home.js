@@ -1,6 +1,5 @@
 import React from 'react';
-import image from '../assets/Error-404.jpg';
-import { NavLink } from 'react-router-dom';
+import image from '../assets//images/home.png';
 import Common from '../components/Common';
 // import '../assets/styles/App.scss';
 

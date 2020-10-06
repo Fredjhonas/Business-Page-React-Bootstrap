@@ -1,5 +1,5 @@
 import React from 'react';
-import ErrorNotFound from '../assets/Error-404.jpg';
+import ErrorNotFound from '../assets/images/Error-404.jpg';
 
 export default () => (
   <div>

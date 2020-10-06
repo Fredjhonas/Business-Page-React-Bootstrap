@@ -25,7 +25,7 @@ module.exports = {
       theme_color: '#127B8B',
       icons: [
         {
-          src: path.resolve('src/assets/icon.png'),
+          src: path.resolve('src/assets/images/icon.png'),
           sizes: [96, 128, 192, 256, 384, 512]
         }
       ]
@@ -63,7 +63,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: 'assets/[hash].[ext]'
+              name: 'assets/images/[hash].[ext]'
             }
           }
         ]
