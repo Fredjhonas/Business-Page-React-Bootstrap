@@ -8,6 +8,7 @@ import Services from '../pages/Services';
 import Contact from '../pages/Contact';
 import NotFound from '../pages/NotFound';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route exact path='/contact' component={Contact} />
           <Route component={NotFound} />
         </Switch>
+        <Footer />
       </BrowserRouter>
     </>
   );

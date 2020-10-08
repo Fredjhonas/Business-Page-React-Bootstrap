@@ -1,21 +1,30 @@
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  height: 38%;
+  height: 40%;
 }
 
 .card {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin: 10px;
 }
 
 .btn-card {
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: xx-small;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 5px;
   color: #3498db;
   border: 2px solid black !important;
   text-decoration: none !important;
+}
+
+h5 {
+  font-size: small;
+}
+
+.card-text {
+  font-size: xx-small;
 }

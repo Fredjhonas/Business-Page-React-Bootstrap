@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 import React, { useState } from 'react';
+import '../assets/styles/pages/contact.scss';
 
 const Contact = () => {
   const [form, setValues] = useState({
@@ -36,7 +37,7 @@ const Contact = () => {
   return (
     <>
       <div className='my-3'>
-        <h1 className='text-center'>Contact Us</h1>
+        <h1 id='contact-title' className='text-center'>Contact Us</h1>
       </div>
       <div className='container contact-div'>
         <div className='row'>
@@ -49,12 +50,12 @@ const Contact = () => {
               </div>
 
               <div className='form-group'>
-                <label>Full Name</label>
+                <label>Full name</label>
                 <input type='text' className='form-control' id='exampleInputEmail1' aria-describedby='emailHelp' placeholder='Enter your name' name='name' value={form.name} onChange={handleInput} />
               </div>
 
               <div className='form-group'>
-                <label>Phone Number</label>
+                <label>Phone number</label>
                 <input type='text' className='form-control' id='exampleInputEmail1' aria-describedby='emailHelp' placeholder='Enter your mobile number' name='phone' value={form.phone} onChange={handleInput} />
               </div>
 

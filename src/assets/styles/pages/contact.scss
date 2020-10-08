@@ -1,0 +1,28 @@
+.contact-div {
+  padding: 20px;
+  margin-bottom: 40px;
+    min-height: calc(
+    100vh - 247px)
+}
+
+#contact-title {
+  margin-top: 20px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.btn-form {
+  font-size: small;
+  padding: 4px;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-group label {
+  font-size: small;
+}
+
+.form-control {
+  font-size: small;
+}

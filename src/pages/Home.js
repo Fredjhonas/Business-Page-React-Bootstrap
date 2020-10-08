@@ -6,7 +6,7 @@ import Common from '../components/Common';
 const Home = () => {
   return (
     <>
-      <Common title='Grow your business with ' imgsrc={image} visit='/services' btname='Get Started' />
+      <Common title='Grow your business with ' subtitle='You will reach the sky' imgsrc={image} visit='/services' btname='Get Started' />
     </>
 
   );
