@@ -1,31 +1,30 @@
-import webmail from '../../assets/images/webmail.jpg';
-import ftp from '../../assets/images/ftp.jpg';
-import movil from '../../assets/images/movil.jpg';
-import vps from '../../assets/images/vps.jpg';
-import domain from '../../assets/images/dominios.jpg';
+import webmail from "../../assets/images/webmail.jpg";
+import ftp from "../../assets/images/ftp.jpg";
+import movil from "../../assets/images/movil.jpg";
+import vps from "../../assets/images/vps.jpg";
+import domain from "../../assets/images/dominios.jpg";
 
 const Sdata = [
   {
     imgsrc: webmail,
-    title: 'Webmail'
+    title: "webmail",
   },
   {
     imgsrc: ftp,
-    title: 'FTP Servers'
+    title: "ftp",
   },
   {
     imgsrc: movil,
-    title: 'Apps Hosting'
+    title: "apps",
   },
   {
     imgsrc: vps,
-    title: 'VPS Servers'
+    title: "vps",
   },
   {
     imgsrc: domain,
-    title: 'Domains'
-  }
-
+    title: "domain",
+  },
 ];
 
 export default Sdata;

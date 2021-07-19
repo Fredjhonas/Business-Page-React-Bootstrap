@@ -1,5 +1,5 @@
-@import './Vars.scss';
-@import '~bootstrap/scss/bootstrap.scss';
+@import "./Vars.scss";
+@import "~bootstrap/scss/bootstrap.scss";
 
 body {
   margin: 0;
@@ -7,22 +7,21 @@ body {
   font-family: $theme-font;
   background: $main-color;
   line-height: 1.5;
+  overflow-x: hidden;
 }
-
-
 
 /* Responsive code */
 @media (max-width: 1200px) {
   #header h1 {
     font-size: 28px !important;
   }
-  
+
   #header h2 {
     font-size: 18px !important;
   }
   #contact-title {
     font-size: 1.2rem !important;
-}
+  }
 }
 
 @media (max-width: 767px) {
@@ -31,7 +30,6 @@ body {
     margin-top: 60px !important;
     margin-bottom: 40px;
   }
-
 }
 
 @media (max-width: 420px) {

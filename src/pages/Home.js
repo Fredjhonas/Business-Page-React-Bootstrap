@@ -1,14 +1,20 @@
-import React from 'react';
-import image from '../assets//images/home.png';
-import Common from '../components/Common';
-// import '../assets/styles/App.scss';
+import React from "react";
+import { useTranslation } from "react-i18next";
+import image from "../assets//images/home.png";
+import Common from "../components/Common";
 
 const Home = () => {
+  const { t } = useTranslation(["home"]);
   return (
     <>
-      <Common title='Grow your business with ' subtitle='You will reach the sky' imgsrc={image} visit='/services' btname='Get Started' />
+      <Common
+        title={t("title")}
+        subtitle={t("subtitle")}
+        imgsrc={image}
+        visit="/services"
+        btname={t("btname")}
+      />
     </>
-
   );
 };
 

@@ -1,8 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
-import './assets/styles/App.scss';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./config/i18n";
+import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
-import App from './routes/App';
+import "./assets/styles/App.scss";
 
-ReactDOM.render(<App />, document.getElementById('app'));
+import App from "./routes/App";
+
+ReactDOM.render(<App />, document.getElementById("app"));
