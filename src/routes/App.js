@@ -7,13 +7,14 @@ import NotFound from "../pages/NotFound";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import TopBar from "../components/TopBar";
+import Spinner from "../components/Spinner";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <Suspense fallback="cargando...">
+      <Suspense fallback={<Spinner />}>
         <BrowserRouter>
           <TopBar />
           <Navbar />

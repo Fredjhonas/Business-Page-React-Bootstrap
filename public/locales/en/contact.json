@@ -1,0 +1,13 @@
+{
+  "title": " Contact Us",
+  "label-email": "Email address",
+  "placeholder-email": "Enter your email",
+  "note-email": " We'll never share your email with anyone else.",
+  "label-name": "Full name",
+  "placeholder-name": "Enter your name",
+  "label-phone": "Phone number",
+  "placeholder-number": "Enter your mobile number",
+  "label-msg": "Message",
+  "placeholder-msg": "Enter your message",
+  "btnText": " Submit"
+}

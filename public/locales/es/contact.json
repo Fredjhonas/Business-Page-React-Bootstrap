@@ -1,0 +1,13 @@
+{
+  "title": "Contactanos",
+  "label-email": "Correo electrónico",
+  "placeholder-email": "Ingresa tu correo",
+  "note-email": " Nunca compartiremos su correo electrónico con nadie más.",
+  "label-name": "Nombre completo",
+  "placeholder-name": "Ingresa tu nombre",
+  "label-phone": "Número de teléfono",
+  "placeholder-number": "Ingresa tu número telefónico",
+  "label-msg": "Mensaje",
+  "placeholder-msg": "Ingresa tu mensaje",
+  "btnText": " Enviar"
+}

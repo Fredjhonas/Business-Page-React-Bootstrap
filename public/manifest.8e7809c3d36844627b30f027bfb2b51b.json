@@ -1,0 +1,43 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.d3cf30438e73fe472b164aa045d60232.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.6d33fd094c75e0b17837a646e8c7eef5.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.60a9c5831dc9ff8e17f904a168cb0a05.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.7597e4710d1369399190dff2ab63e647.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.4600c89bb56e97aab505d1d84aadc030.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.36ebb174ca0bb0c3eb862569d3e0053d.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Business page - Your business hompage",
+  "short_name": "Business page - Your business hompage",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "shortname": "Business page",
+  "description": "With this page you can see beautiful homepage",
+  "background_color": "#e6e6fa",
+  "theme_color": "#127B8B"
+}
