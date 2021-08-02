@@ -9,7 +9,10 @@ const Common = (props) => {
 
   return (
     <>
-      <section id="header" className="section-common">
+      <section
+        id="header"
+        className={mobileRange ? "section-common-mobile" : "section-common"}
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-6">

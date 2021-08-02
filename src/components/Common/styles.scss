@@ -1,12 +1,17 @@
 #header {
   width: 100%;
-  padding-top: 60px;
+  padding-top: 50px;
   //margin-bottom: 30px;
-  height: auto;
 }
 
 .section-common {
   margin: 50px auto;
+  height: calc(100vh - 245px);
+}
+
+.section-common-mobile {
+  margin: 50px auto;
+  height: auto;
 }
 
 #header h1 {
