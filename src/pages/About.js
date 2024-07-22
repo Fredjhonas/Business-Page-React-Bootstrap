@@ -7,7 +7,7 @@ const About = () => {
   const { t } = useTranslation(["about"]);
 
   return (
-    <>
+    <div className="container">
       <Common
         title={t("title")}
         subtitle={t("subtitle")}
@@ -15,7 +15,7 @@ const About = () => {
         visit="/contact"
         btname={t("btname")}
       />
-    </>
+    </div>
   );
 };
 

@@ -11,10 +11,10 @@ const Common = (props) => {
     <>
       <section
         id="header"
-        className={mobileRange ? "section-common-mobile" : "section-common"}
+        className="d-flex align-items-center justify-content-center vh-100" 
       >
-        <div className="container">
-          <div className="row">
+        <div className="p-4">
+          <div className={`row ${mobileRange ? "row-reverse" : ""}`}>
             <div className="col-lg-6">
               <h1>
                 {title}

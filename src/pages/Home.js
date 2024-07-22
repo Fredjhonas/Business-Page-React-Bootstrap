@@ -6,7 +6,7 @@ import Common from "../components/Common";
 const Home = () => {
   const { t } = useTranslation(["home"]);
   return (
-    <>
+    <div className="container">
       <Common
         title={t("title")}
         subtitle={t("subtitle")}
@@ -14,7 +14,7 @@ const Home = () => {
         visit="/services"
         btname={t("btname")}
       />
-    </>
+    </div>
   );
 };
 

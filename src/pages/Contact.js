@@ -1,5 +1,3 @@
-/* eslint-disable jsx-quotes */
-/* eslint-disable quotes */
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -49,8 +47,8 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <div className="my-3">
+    <div className="vh-100 d-flex align-items-center justify-content-center flex-column">
+      <div className="m-3">
         <h1 id="contact-title" className="text-center">
           {t("title")}
         </h1>
@@ -117,14 +115,14 @@ const Contact = () => {
                 />
               </div>
 
-              <button type="submit" className="btn-form btn-outline-primary">
+              <button type="submit" className="btn-form btn-outline-primary" disabled={!form.email || !form.name || !form.phone || !form.message}>
                 {t("btnText")}
               </button>
             </form>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

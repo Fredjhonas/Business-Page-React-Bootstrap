@@ -2,11 +2,12 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import "./styles.scss";
 
-import imgEs from "../../assets/images/idiomas/espana.png";
 import imgEn from "../../assets/images/idiomas/eeuu.png";
+import imgEs from "../../assets/images/idiomas/espana.png";
 
 const TopBar = () => {
   const { t, i18n } = useTranslation(["topBar"]);
+  const language = i18n.language;
   return (
     <div>
       <div className="row topbar">
@@ -36,7 +37,7 @@ const TopBar = () => {
                     aria-expanded="false"
                   >
                     <img
-                      src={i18n.language === "es" ? imgEs : imgEn}
+                      src={language ? (language === "es" ? imgEs : imgEn) : imgEs}
                       style={{
                         marginRight: "-9px",
                         marginTop: "0px",
